@@ -8,5 +8,10 @@ public interface UserService {
     //定义一个操作dao的接口
     public abstract List<User> findAll();
 
+    /**
+     *
+     * @param user
+     * @return
+     */
     User login(User user);
 }
